@@ -1,2 +1,14 @@
-# PyBer_Analysis
-Module 4
+## Overview
+This data oversees an exploratory analysis for the ride share company, Pyber. The goal of the analysis is to analyze a large set of data and provide insight into trends between data points, such as, but not limited to, the type of city, the number of drivers, the number of rides, and the average fares, as well as showcase the data in a variety of charts. The end goal of the analysis is to determine which areas might need improved access and determine affordability for underserved neighborhoods.
+ 
+## Results:
+The analysis of the data shows a large disparity among city types. The dataframe below showcases the city types in a range of different factors. From this, we can see that the data shows that rural cities are especially lacking in rides and drivers, especially compared to urban cities who have too many drivers. The dataframe also shows that compared to urban and suburban cities, the overall fares are much lower. However, the average fare per ride and the average fare per driver are higher in rural areas, showing that people in rural areas have to pay more to afford a ride.
+
+![Pyber_DataFrame](https://github.com/BrieonaT/PyBer_Analysis/blob/main/Analysis/PyBer_dataframe.png)
+
+This information is also echoed in the chart below. It’s easy to notice that urban areas are well served and also pulling in the most money and despite a few dips, it’s kept up a steady pace. Suburban areas also are also performing decently, but not as well as urban areas. Rural areas are showing to be lacking in comparison here as well, having the lowest total amount of fares across the chart.
+
+![Pyber_LineChart](https://github.com/BrieonaT/PyBer_Analysis/blob/main/Analysis/PyBer_fare_summary.png)
+ 
+## Summary
+With all the previous data and the chart in mind, from here we can make steps to improve these disparities. It’s easy to tell from both the chart and the dataframe that the urban areas are performing well, but it’s also worth noting that the suburban and rural areas could use some assistance. One of the first steps that could be made is making rides more accessible to rural areas. This would be accomplished by providing more drivers to these areas. Another step would be to work on decreasing the amount rural customers would have to pay. With the current state of the business, rural customers are shown to be paying a lot more than their urban counterparts per ride, and this current price gap most likely prohibits lower-income would-be customers from using the service. Another way you could change up the business would be to redistribute the amount of drivers in urban areas. As said previously in the results, urban areas currently have too many drivers for the amount of rides being taken. Reducing the amount of drivers in urban cities, possibly through redistributing them to other areas, will increase the average fares per drivers in urban areas. 
